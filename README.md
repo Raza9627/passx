@@ -1,21 +1,66 @@
-<<<<<<< HEAD
-# passx
-The project focuses on modern UI/UX, component-based architecture, and efficient state management in React. It also includes features like password visibility toggle, clipboard copy, and instant feedback using toast notifications.
-=======
-# React + Vite
+# 🔐 PassX – Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassX is a modern and secure **password manager** built using **React** and **Tailwind CSS**.  
+It allows users to store, manage, and access website credentials through a clean and responsive interface.
 
-Currently, two official plugins are available:
+The project focuses on strong **frontend fundamentals**, reusable components, and smooth user experience without any backend dependency.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ➕ Add, ✏️ edit, and 🗑️ delete passwords  
+- 👁️ Toggle password visibility  
+- 📋 Copy credentials to clipboard  
+- 🔔 Instant feedback using toast notifications  
+- 💾 Data stored in browser **LocalStorage**  
+- 📱 Fully responsive design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 831a239 (PassX React app)
+## 🛠️ Tech Stack
+
+- React  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- React Hooks  
+- LocalStorage API  
+
+---
+## 🌐 Routing
+
+- `/` → Home (Password Manager)
+- `/about` → About PassX
+- `/feedback` → Feedback Form  
+
+Navbar and Footer remain visible across all routes.
+
+---
+
+## 🎯 What I Learned
+
+- React component-based architecture  
+- State management using hooks  
+- Client-side routing with React Router  
+- Responsive UI using Tailwind CSS  
+- Working with browser LocalStorage  
+
+---
+
+## 📌 Future Improvements
+
+- Password encryption  
+- Backend integration  
+- Dark mode  
+- Authentication system  
+
+---
+
+## 👤 Author
+
+**Raza**  
+Frontend Developer | React Enthusiast  
+
+GitHub: https://github.com/Raza9627  
+
+---
